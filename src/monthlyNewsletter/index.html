@@ -1,26 +1,85 @@
 <html>
-    <body>
-        <table bgcolor="#FFFFFF" width="100%" border="0" cellspacing="0" cellpadding="0">
-            <tr>
-                <td>
-                    Header
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Content
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Button
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Footer
-                </td>
-            </tr>
-        </table>
-    </body>
+
+<head>
+    <style>
+        .row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: #2f7ab6;
+
+        }
+
+        .header__logo {
+            background: #fff;
+            padding: 5px;
+            margin-left: 20px;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-family: 'Roboto Slab', serif;
+            font-size: xx-large;
+            border-top: 3px solid #fff;
+            border-bottom: 3px solid #fff;
+            padding: 0;
+            margin: 20px;
+            line-height: 46px;
+        }
+
+        section {
+            width: 100%;
+            color: #fff;
+            padding: 20px;
+        }
+
+        section.green {
+            background-color: #508331
+        }
+
+        section.blue {
+            background-color: #006A71;
+        }
+
+        section.navy {
+            background-color: #1a3a67;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header__logo">
+            <img src="https://www.tuftsmedicalcenter.org/ui/images/logo-tufts-medical-center.png" alt="Tufts Medical Center" />
+        </div>
+        <h1>Research News</h1>
+    </header>
+    <main>
+        <div class="row">
+            <section class="navy">
+                <h2>Quick Hits</h2>
+                <p>This is an email</p>
+            </section>
+
+        </div>
+        <div class="row">
+            <section class="blue">
+                <h3>New Faculty</h3>
+            </section>
+            <section class="green">
+                <h3>New Awards</h3>
+            </section>
+        </div>
+    </main>
+</body>
+
 </html>
