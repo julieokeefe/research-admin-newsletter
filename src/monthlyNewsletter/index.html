@@ -13,7 +13,7 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-            justify-content: flex-start;
+            justify-content: center;
             background-color: #2f7ab6;
 
         }
@@ -37,21 +37,36 @@
 
         section {
             width: 100%;
+        }
+
+        section .content,
+        section h2,
+        section h3 {
+            padding: 10px;
+        }
+
+        section h2,
+        section h3 {
+            margin: 10px 0 10px 0;
             color: #fff;
-            padding: 20px;
         }
 
-        section.green {
-            background-color: #508331
+        .row section + section {
+            margin-left: 10px;
         }
 
-        section.blue {
+        section.navy h2 {
+            background-color: #1a3a67;
+        }
+
+        section.green h3 {
+            background-color: #508331;
+        }
+
+        section.blue h3 {
             background-color: #006A71;
         }
 
-        section.navy {
-            background-color: #1a3a67;
-        }
     </style>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
@@ -67,16 +82,45 @@
         <div class="row">
             <section class="navy">
                 <h2>Quick Hits</h2>
-                <p>This is an email</p>
+                <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan, nunc in rhoncus pretium, orci felis malesuada
+                    tellus, id placerat risus turpis et diam. Pellentesque eget feugiat dolor, sed laoreet massa. In hac habitasse platea
+                    dictumst. Aenean velit enim, lobortis non orci facilisis, pellentesque tristique nulla. Pellentesque vel lorem vitae
+                    augue sagittis dictum in vitae odio. Ut tincidunt ligula nec purus posuere dapibus. Proin in nisi at lectus scelerisque
+                    vehicula sit amet vel augue. Pellentesque vulputate nec diam non consequat. Sed ullamcorper condimentum leo eu
+                    bibendum. Duis rutrum ligula massa, ut auctor felis ultricies non. Aenean fringilla, lorem ut fringilla luctus, augue
+                    justo cursus enim, non convallis nibh magna a leo. Nulla accumsan posuere lectus tempor rutrum. Mauris porttitor ligula
+                    sit amet sagittis sollicitudin.
+                </div>
             </section>
 
         </div>
         <div class="row">
             <section class="blue">
                 <h3>New Faculty</h3>
+                <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan, nunc in rhoncus pretium, orci felis malesuada
+                    tellus, id placerat risus turpis et diam. Pellentesque eget feugiat dolor, sed laoreet massa. In hac habitasse platea
+                    dictumst. Aenean velit enim, lobortis non orci facilisis, pellentesque tristique nulla. Pellentesque vel lorem vitae
+                    augue sagittis dictum in vitae odio. Ut tincidunt ligula nec purus posuere dapibus. Proin in nisi at lectus scelerisque
+                    vehicula sit amet vel augue. Pellentesque vulputate nec diam non consequat. Sed ullamcorper condimentum leo eu
+                    bibendum. Duis rutrum ligula massa, ut auctor felis ultricies non. Aenean fringilla, lorem ut fringilla luctus, augue
+                    justo cursus enim, non convallis nibh magna a leo. Nulla accumsan posuere lectus tempor rutrum. Mauris porttitor ligula
+                    sit amet sagittis sollicitudin.
+                </div>
             </section>
             <section class="green">
                 <h3>New Awards</h3>
+                <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan, nunc in rhoncus pretium, orci felis malesuada
+                    tellus, id placerat risus turpis et diam. Pellentesque eget feugiat dolor, sed laoreet massa. In hac habitasse platea
+                    dictumst. Aenean velit enim, lobortis non orci facilisis, pellentesque tristique nulla. Pellentesque vel lorem vitae
+                    augue sagittis dictum in vitae odio. Ut tincidunt ligula nec purus posuere dapibus. Proin in nisi at lectus scelerisque
+                    vehicula sit amet vel augue. Pellentesque vulputate nec diam non consequat. Sed ullamcorper condimentum leo eu
+                    bibendum. Duis rutrum ligula massa, ut auctor felis ultricies non. Aenean fringilla, lorem ut fringilla luctus, augue
+                    justo cursus enim, non convallis nibh magna a leo. Nulla accumsan posuere lectus tempor rutrum. Mauris porttitor ligula
+                    sit amet sagittis sollicitudin.
+                </div>
             </section>
         </div>
     </main>
