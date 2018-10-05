@@ -6,8 +6,18 @@
             font-family: 'Roboto Slab', serif;
         }
 
-        thead.email-header tr td {
+        .email-header tr td {
             text-align: center;
+        }
+
+        .email-header__content tr td {
+            width: 50%;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .email-header__content tr td:last-child {
+            /* text-align: left; */
         }
 
         .header__logo {
@@ -20,9 +30,9 @@
         h1 {
             display: inline-block;
             color: #2f7ab6;
-            font-size: xx-large;
-            border-top: 3px solid #2f7ab6;
-            border-bottom: 3px solid #2f7ab6;
+            font-size: 30px;
+            /* border-top: 3px solid #2f7ab6;
+            border-bottom: 3px solid #2f7ab6; */
             padding: 0;
             margin: 20px;
             line-height: 46px;
@@ -30,7 +40,7 @@
         }
 
         table tr td {
-            vertical-align: middle;
+            vertical-align: top;
         }
 
         table.navy h2 {
@@ -59,16 +69,22 @@
         <thead class="email-header">
             <tr>
                 <td>
-                    <table width="100%" cellpadding="0" cellspacing="0">
+                    <table class="email-header__content" width="100%" cellpadding="0" cellspacing="0">
                         <tbody>
                             <tr>
-                                <td>
+                                <td width="50%">
                                     <div class="header__logo">
                                         <img src="https://www.tuftsmedicalcenter.org/ui/images/logo-tufts-medical-center.png"
                                             alt="Tufts Medical Center">
                                     </div>
+                                </td>
+                                <!-- <td width="50%">
                                     <h1>Research News</h1>
-
+                                </td> -->
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h1>Research News &VerticalBar; October 2018</h1>
                                 </td>
                             </tr>
                         </tbody>
@@ -90,28 +106,24 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                                        accumsan, nunc in rhoncus pretium,
-                                        orci felis malesuada
-                                        tellus, id placerat risus turpis et diam. Pellentesque eget
-                                        feugiat dolor, sed laoreet massa. In
-                                        hac habitasse platea
-                                        dictumst. Aenean velit enim, lobortis non orci facilisis,
-                                        pellentesque tristique nulla.
-                                        Pellentesque vel lorem vitae
-                                        augue sagittis dictum in vitae odio. Ut tincidunt ligula nec
-                                        purus posuere dapibus. Proin in nisi
-                                        at lectus scelerisque
-                                        vehicula sit amet vel augue. Pellentesque vulputate nec diam
-                                        non consequat. Sed ullamcorper
-                                        condimentum leo eu
-                                        bibendum. Duis rutrum ligula massa, ut auctor felis ultricies
-                                        non. Aenean fringilla, lorem ut
-                                        fringilla luctus, augue
-                                        justo cursus enim, non convallis nibh magna a leo. Nulla
-                                        accumsan posuere lectus tempor rutrum.
-                                        Mauris porttitor ligula
-                                        sit amet sagittis sollicitudin.</p>
+                                    <ul>
+                                        <li>Reminder that all non-grant funded travel, and all foreign travel
+                                            regardless of funding source, requires prior approval. The prior approval
+                                            form can be found here.</li>
+                                        <li>CTSI Grant Writing Workshop for Researchers: Planning to submit a
+                                            scientific research grant proposal in early 2019? Need useful feedback on
+                                            your research objectives? Tufts CTSI invites 10-15 motivated researchers
+                                            with developed biomedical, clinical, or translational research project
+                                            ideas to sign up for Developing Page One: a Writing Workshop Series for
+                                            Researchers. Formerly known as Developing Your Specific Aims, this popular
+                                            four-session grant writing course is designed to help you develop the
+                                            critically-important Page One of your grant proposal through peer review,
+                                            grantsmanship training, and expert support. Sessions start on Wednesday,
+                                            September 26 at 9:30AM. Participants must attend all four sessions and must
+                                            be able to submit a draft of their Page One by September 10. Priority is
+                                            given to faculty members at Tufts CTSI partner institutions. Interested?
+                                            Apply here by September 10.</li>
+                                    </ul>
                                 </td>
                             </tr>
                         </tbody>
@@ -123,8 +135,8 @@
                     <table cellpadding="0" cellspacing="10">
                         <tbody>
                             <tr>
-                                <td>
-                                    <table class="blue" cellpadding="10" cellspacing="0">
+                                <td width="50%">
+                                    <table class="blue" width="100%" cellpadding="10" cellspacing="0">
                                         <thead>
                                             <tr>
                                                 <td bgcolor="#006A71">
@@ -135,35 +147,25 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                                                        accumsan, nunc in rhoncus pretium,
-                                                        orci felis malesuada
-                                                        tellus, id placerat risus turpis et diam. Pellentesque eget
-                                                        feugiat dolor, sed laoreet massa. In
-                                                        hac habitasse platea
-                                                        dictumst. Aenean velit enim, lobortis non orci facilisis,
-                                                        pellentesque tristique nulla.
-                                                        Pellentesque vel lorem vitae
-                                                        augue sagittis dictum in vitae odio. Ut tincidunt ligula nec
-                                                        purus posuere dapibus. Proin in nisi
-                                                        at lectus scelerisque
-                                                        vehicula sit amet vel augue. Pellentesque vulputate nec diam
-                                                        non consequat. Sed ullamcorper
-                                                        condimentum leo eu
-                                                        bibendum. Duis rutrum ligula massa, ut auctor felis ultricies
-                                                        non. Aenean fringilla, lorem ut
-                                                        fringilla luctus, augue
-                                                        justo cursus enim, non convallis nibh magna a leo. Nulla
-                                                        accumsan posuere lectus tempor rutrum.
-                                                        Mauris porttitor ligula
-                                                        sit amet sagittis sollicitudin.</p>
+                                                    <p>Please welcome Dr. M. Elizabeth Fini, who recently joined Tufts
+                                                        MC's Department of Ophthalmology. A native of Greater Boston,
+                                                        Dr Fini earned her doctoral degree at Dartmouth College and did
+                                                        postdoctoral training at Dartmouth Medical School and the
+                                                        Massachusetts Institute of Technology. She is best known for
+                                                        her scientific contributions to our understanding of diseases
+                                                        of the eye. In 2002, she shared the Lewis Rudin Glaucoma Prize
+                                                        from the New York Academy of Medicine for discovery of a novel
+                                                        unifying mechanism for glaucoma pathogenesis. She has also made
+                                                        a significant impact as a mentor to young scientists, many of
+                                                        whom now hold scientific leadership positions at institutions
+                                                        across the United States and the world.</p>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </td>
-                                <td>
-                                    <table class="green" cellpadding="10" cellspacing="0">
+                                <td width="50%">
+                                    <table class="green" width="100%" cellpadding="10" cellspacing="0">
                                         <thead>
                                             <tr>
                                                 <td bgcolor="#508331">
@@ -174,28 +176,19 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                                                        accumsan, nunc in rhoncus pretium,
-                                                        orci felis malesuada
-                                                        tellus, id placerat risus turpis et diam. Pellentesque eget
-                                                        feugiat dolor, sed laoreet massa. In
-                                                        hac habitasse platea
-                                                        dictumst. Aenean velit enim, lobortis non orci facilisis,
-                                                        pellentesque tristique nulla.
-                                                        Pellentesque vel lorem vitae
-                                                        augue sagittis dictum in vitae odio. Ut tincidunt ligula nec
-                                                        purus posuere dapibus. Proin in nisi
-                                                        at lectus scelerisque
-                                                        vehicula sit amet vel augue. Pellentesque vulputate nec diam
-                                                        non consequat. Sed ullamcorper
-                                                        condimentum leo eu
-                                                        bibendum. Duis rutrum ligula massa, ut auctor felis ultricies
-                                                        non. Aenean fringilla, lorem ut
-                                                        fringilla luctus, augue
-                                                        justo cursus enim, non convallis nibh magna a leo. Nulla
-                                                        accumsan posuere lectus tempor rutrum.
-                                                        Mauris porttitor ligula
-                                                        sit amet sagittis sollicitudin.</p>
+                                                    <ul>
+                                                        <li>Dr. Keyong Du / Hematology Oncology / NIH/NIDDK /
+                                                            Regulation of Akt Signaling by Detergent Resistant Membrane
+                                                            Associated Protein ClipR-59 / $1,181,250 total over 5 years</li>
+
+                                                        <li>Dr. Jeffrey Driban / Rheumatology / NIH/NIAMS /
+                                                            Characterization of rapidly progressive knee osteoarthritis
+                                                            / $1,485,538 over 4 years</li>
+
+                                                        <li>Dr. Cheleste Thorpe / Geographic Medicine & Infectious
+                                                            Diseases / Summit / Microbiota and Metabolomic Study /
+                                                            $2,462,700 over 4 years</li>
+                                                    </ul>
                                                 </td>
                                             </tr>
                                         </tbody>
