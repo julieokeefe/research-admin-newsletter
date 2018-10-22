@@ -20,6 +20,25 @@
             vertical-align: middle;
         }
 
+        .email-header__content .email-header__logos {
+            width: auto;
+            margin: auto;
+            table-layout: fixed;
+        }
+
+        .email-header__logos tr td {
+            width: auto;
+            Margin: 0;
+        }
+
+        .email-header__logos tr td:first-child {
+            padding-right: 20px;
+        }
+
+        .email-header__logos tr td:last-child {
+            width: 130px;
+        }
+
         .header__logo {
             display: inline-block;
             background: #fff;
@@ -66,13 +85,19 @@
         }
 
         ul {
-            padding-left: 20px;
+            padding-left: 10px;
             margin-bottom: 0;
+            Margin: 0 0 0 20px;
         }
 
         ul li {
             margin-bottom: 10px;
+            text-align: justify;
         }
+
+        p {
+            text-align: justify;
+        }       
 
         .headshot {
             width: 100px;
@@ -107,10 +132,22 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <div class="header__logo">
-                                        <img src="https://www.tuftsmedicalcenter.org/ui/images/logo-tufts-medical-center.png"
-                                            alt="Tufts Medical Center">
-                                    </div>
+                                    <table class="email-header__logos" align="middle" cellpadding="0" cellspacing="0">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <img src="https://www.tuftsmedicalcenter.org/ui/images/logo-tufts-medical-center.png"
+                                                        class="primary-logo"
+                                                        alt="Tufts Medical Center"/>
+                                                </td>
+                                                <td>
+                                                    <img src="https://www.tuftsmedicalcenter.org/ui/images/affiliation-floating-hospital-for-children.png"
+                                                        class="floating-hospital-logo"
+                                                        alt="Tufts Medical Center Floating Hospital for Children"/>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </td>
                             </tr>
                             <tr>
@@ -171,7 +208,7 @@
                                         <thead>
                                             <tr>
                                                 <td bgcolor="#006A71">
-                                                    <h3>New Faculty</h3>
+                                                    <h3>Faculty Spotlight</h3>
                                                 </td>
                                             </tr>
                                         </thead>

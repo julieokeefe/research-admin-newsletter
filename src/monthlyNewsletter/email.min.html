@@ -20,6 +20,25 @@
             vertical-align: middle;
         }
 
+        .email-header__content .email-header__logos {
+            width: auto;
+            margin: auto;
+            table-layout: fixed;
+        }
+
+        .email-header__logos tr td {
+            width: auto;
+            Margin: 0;
+        }
+
+        .email-header__logos tr td:first-child {
+            padding-right: 20px;
+        }
+
+        .email-header__logos tr td:last-child {
+            width: 130px;
+        }
+
         .header__logo {
             display: inline-block;
             background: #fff;
@@ -66,13 +85,19 @@
         }
 
         ul {
-            padding-left: 20px;
+            padding-left: 10px;
             margin-bottom: 0;
+            Margin: 0 0 0 20px;
         }
 
         ul li {
             margin-bottom: 10px;
+            text-align: justify;
         }
+
+        p {
+            text-align: justify;
+        }       
 
         .headshot {
             width: 100px;
@@ -107,9 +132,18 @@
                         <tbody style="font-family: Calibri, sans-serif;">
                             <tr style="font-family: Calibri, sans-serif;">
                                 <td style="font-family: Calibri, sans-serif;vertical-align: middle;text-align: center;width: 50%;">
-                                    <div class="header__logo" style="font-family: Calibri, sans-serif;display: inline-block;background: #fff;padding: 5px;vertical-align: middle;">
-                                        <img src="https://www.tuftsmedicalcenter.org/ui/images/logo-tufts-medical-center.png" alt="Tufts Medical Center" style="font-family: Calibri, sans-serif;">
-                                    </div>
+                                    <table class="email-header__logos" align="middle" cellpadding="0" cellspacing="0" style="font-family: Calibri, sans-serif;width: auto;margin: auto;table-layout: fixed;">
+                                        <tbody style="font-family: Calibri, sans-serif;">
+                                            <tr style="font-family: Calibri, sans-serif;">
+                                                <td style="font-family: Calibri, sans-serif;vertical-align: middle;text-align: center;width: auto;margin: 0;padding-right: 20px;">
+                                                    <img src="https://www.tuftsmedicalcenter.org/ui/images/logo-tufts-medical-center.png" class="primary-logo" alt="Tufts Medical Center" style="font-family: Calibri, sans-serif;">
+                                                </td>
+                                                <td style="font-family: Calibri, sans-serif;vertical-align: middle;text-align: center;width: 130px;margin: 0;">
+                                                    <img src="https://www.tuftsmedicalcenter.org/ui/images/affiliation-floating-hospital-for-children.png" class="floating-hospital-logo" alt="Tufts Medical Center Floating Hospital for Children" style="font-family: Calibri, sans-serif;">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </td>
                             </tr>
                             <tr style="font-family: Calibri, sans-serif;">
@@ -136,11 +170,11 @@
                         <tbody style="font-family: Calibri, sans-serif;">
                             <tr style="font-family: Calibri, sans-serif;">
                                 <td style="padding-bottom: 0;font-family: Calibri, sans-serif;vertical-align: top;">
-                                    <ul style="font-family: Calibri, sans-serif;padding-left: 20px;margin-bottom: 0;">
-                                        <li style="font-family: Calibri, sans-serif;margin-bottom: 10px;">Reminder that all non-grant funded travel, and all foreign travel
+                                    <ul style="font-family: Calibri, sans-serif;padding-left: 10px;margin-bottom: 0;margin: 0 0 0 20px;">
+                                        <li style="font-family: Calibri, sans-serif;margin-bottom: 10px;text-align: justify;">Reminder that all non-grant funded travel, and all foreign travel
                                             regardless of funding source, requires prior approval. The prior approval
                                             form can be found here.</li>
-                                        <li style="font-family: Calibri, sans-serif;margin-bottom: 10px;">CTSI Grant Writing Workshop for Researchers: Planning to submit a
+                                        <li style="font-family: Calibri, sans-serif;margin-bottom: 10px;text-align: justify;">CTSI Grant Writing Workshop for Researchers: Planning to submit a
                                             scientific research grant proposal in early 2019? Need useful feedback on
                                             your research objectives? Tufts CTSI invites 10-15 motivated researchers
                                             with developed biomedical, clinical, or translational research project
@@ -170,7 +204,7 @@
                                         <thead style="font-family: Calibri, sans-serif;">
                                             <tr style="font-family: Calibri, sans-serif;">
                                                 <td bgcolor="#006A71" style="font-family: Calibri, sans-serif;vertical-align: top;">
-                                                    <h3 style="font-family: Calibri, sans-serif;background-color: #006A71;color: #fff;margin: 0;">New Faculty</h3>
+                                                    <h3 style="font-family: Calibri, sans-serif;background-color: #006A71;color: #fff;margin: 0;">Faculty Spotlight</h3>
                                                 </td>
                                             </tr>
                                         </thead>
@@ -179,7 +213,7 @@
                                                 <td class="hspace-cell" style="font-family: Calibri, sans-serif;vertical-align: top;padding-left: 0;">
                                                      <img class="headshot" align="left" vspace="10" hspace="15" style="float: left;font-family: Calibri, sans-serif;width: 100px;max-width: 33.333333%;height: auto;display: inline-block;" src="https://news.usc.edu/files/img/pic1_14949.jpg">
                                                      
-                                                     <p style="margin-right: 15px;margin-bottom: 15px;font-family: Calibri, sans-serif;padding-left: 10px;"> Please
+                                                     <p style="margin-right: 15px;margin-bottom: 15px;font-family: Calibri, sans-serif;text-align: justify;padding-left: 10px;"> Please
                                                         welcome Dr. M. Elizabeth Fini, who recently joined Tufts
                                                         MC's Department of Ophthalmology. A native of Greater Boston,
                                                         Dr Fini earned her doctoral degree at Dartmouth College and did
@@ -209,16 +243,16 @@
                                         <tbody style="font-family: Calibri, sans-serif;">
                                             <tr style="font-family: Calibri, sans-serif;">
                                                 <td style="font-family: Calibri, sans-serif;vertical-align: top;">
-                                                    <ul style="font-family: Calibri, sans-serif;padding-left: 20px;margin-bottom: 0;">
-                                                        <li style="font-family: Calibri, sans-serif;margin-bottom: 10px;">Dr. Keyong Du / Hematology Oncology / NIH/NIDDK /
+                                                    <ul style="font-family: Calibri, sans-serif;padding-left: 10px;margin-bottom: 0;margin: 0 0 0 20px;">
+                                                        <li style="font-family: Calibri, sans-serif;margin-bottom: 10px;text-align: justify;">Dr. Keyong Du / Hematology Oncology / NIH/NIDDK /
                                                             Regulation of Akt Signaling by Detergent Resistant Membrane
                                                             Associated Protein ClipR-59 / $1,181,250 total over 5 years</li>
 
-                                                        <li style="font-family: Calibri, sans-serif;margin-bottom: 10px;">Dr. Jeffrey Driban / Rheumatology / NIH/NIAMS /
+                                                        <li style="font-family: Calibri, sans-serif;margin-bottom: 10px;text-align: justify;">Dr. Jeffrey Driban / Rheumatology / NIH/NIAMS /
                                                             Characterization of rapidly progressive knee osteoarthritis
                                                             / $1,485,538 over 4 years</li>
 
-                                                        <li style="font-family: Calibri, sans-serif;margin-bottom: 10px;">Dr. Cheleste Thorpe / Geographic Medicine & Infectious
+                                                        <li style="font-family: Calibri, sans-serif;margin-bottom: 10px;text-align: justify;">Dr. Cheleste Thorpe / Geographic Medicine & Infectious
                                                             Diseases / Summit / Microbiota and Metabolomic Study /
                                                             $2,462,700 over 4 years</li>
                                                     </ul>
